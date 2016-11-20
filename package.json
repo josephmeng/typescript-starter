@@ -1,0 +1,19 @@
+{
+  "name": "loadsh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "start": "tsc && concurrently \"tsc -w\" \"light-server -c .lightserverrc\" "
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "light-server": "^1.1.7"
+  }
+}
